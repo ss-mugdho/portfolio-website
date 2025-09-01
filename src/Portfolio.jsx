@@ -313,7 +313,7 @@ function Hero() {
                 LinkedIn
               </a>
               <a
-                href="/Sohan_Salahuddin_Resume.pdf" download="Sohan_Salahuddin_Resume.pdf"
+                href="/portfolio-website/Sohan_Salahuddin_Resume.pdf" download="Sohan_Salahuddin_Resume.pdf"
                 className="rounded-full bg-slate-900 text-white dark:bg-white dark:text-slate-900 px-4 py-2 text-sm hover:shadow"
               >
                 Download CV
@@ -328,7 +328,7 @@ function Hero() {
           </div>
           <div className="flex md:justify-end">
             <img
-              src="/vite.svg"
+              src="/portfolio-website/sohan_salahuddin.jpg"
               alt="Sohan Salahuddin Mugdho"
               className="h-36 w-36 sm:h-44 sm:w-44 md:h-48 md:w-48 rounded-full object-cover shadow"
             />
