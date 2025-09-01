@@ -328,7 +328,7 @@ function Hero() {
           </div>
           <div className="flex md:justify-end">
             <img
-              src="/sohan_salahuddin.jpg"
+              src="/vite.svg"
               alt="Sohan Salahuddin Mugdho"
               className="h-36 w-36 sm:h-44 sm:w-44 md:h-48 md:w-48 rounded-full object-cover shadow"
             />
