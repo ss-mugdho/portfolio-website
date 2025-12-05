@@ -316,7 +316,7 @@ function Hero() {
                 href="/portfolio-website/Resume_Sohan_Salahuddin_Mugdho.pdf" download="Resume_Sohan_Salahuddin_Mugdho.pdf"
                 className="rounded-full bg-slate-900 text-white dark:bg-white dark:text-slate-900 px-4 py-2 text-sm hover:shadow"
               >
-                Download CV
+                Download Resume
               </a>
               <a
                 href="mailto:ssmugdho@iastate.edu"
