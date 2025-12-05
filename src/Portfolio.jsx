@@ -20,9 +20,9 @@ const TAGS = {
 
 const HIGHLIGHTS = [
   {
-    label: "Best Paper",
-    value: "ICRC 2024",
-    detail: "Spintronic synapses (equal-contribution)",
+    label: "Best Paper Awards",
+    value: "CCMCC 2025, ICRC 2024",
+    detail: "Area-efficient Hetero. MRAM, Spintronic synapses",
   },
   {
     label: "DATE 2025",
@@ -74,7 +74,7 @@ const PUBLICATIONS = [
   {
     title:
       "Scalable Spintronic Synapses for Analog In‑Memory Computing Based on Exchange‑Coupled Nanostructures",
-    authors: "K. K. Gupte*, S. S. Mugdho* , C. Wang (equal contribution)",
+    authors: "K. K. Gupte*, S. S. Mugdho* , C. Wang (*equal contribution)",
     venue: "IEEE ICRC 2024 (San Diego, CA) — Best Paper",
     extra: "DOI: 10.1109/ICRC64395.2024.10937014",
     link: "https://doi.org/10.1109/ICRC64395.2024.10937014",
@@ -84,7 +84,7 @@ const PUBLICATIONS = [
   {
     title:
       "StoX‑Net: Stochastic Processing of Partial Sums for Efficient In‑Memory Computing DNN Accelerators",
-    authors: "E. G. Rogers*, S. S. Mugdho*, K. K. Gupte, C. Wang (equal contribution)",
+    authors: "E. G. Rogers*, S. S. Mugdho*, K. K. Gupte, C. Wang (*equal contribution)",
     venue: "IEEE ICRC 2024",
     extra: "DOI: 10.1109/ICRC64395.2024.10937005",
     link: "https://doi.org/10.1109/ICRC64395.2024.10937005",
@@ -95,7 +95,7 @@ const PUBLICATIONS = [
     title:
       "Area‑Efficient Heterogeneous MRAM for High‑Performing AI Acceleration",
     authors: "S. S. Mugdho, K. K. Gupte, Md. S. Hasan, C. Wang",
-    venue: "IEEE CCMCC 2025 (Dresden, Germany) — Accepted",
+    venue: "IEEE CCMCC 2025 (Dresden, Germany) — Best Paper",
     extra: "",
     link: "#",
     tags: [TAGS.hw],
@@ -116,7 +116,7 @@ const PUBLICATIONS = [
 const EXPERIENCE = [
   {
     company: "Iowa State University of Science and Technology",
-    role: "Hardware/Software Co‑Designer — Graduate Research Assistant",
+    role: "Hardware/Software Co‑Designer — Ph.D. Research Assistant",
     location: "Ames, IA",
     time: "2023 – Present",
     bullets: [
@@ -302,7 +302,7 @@ function Hero() {
               Sohan Salahuddin Mugdho
             </h1>
             <p className="mt-3 text-lg sm:text-xl text-slate-700 dark:text-slate-300">
-              Hardware/Software Co-Designer Graduate Research Assistant | Department of Electrical and Computer Engineering | ML Acceleration | Fairness in AI | In-memory Computing
+              Hardware/Software Co-Designer | Ph.D. Research Assistant at Iowa State University | Specializing in AI hardware & ML acceleration | Focused on fairness in AI and in-memory computing
             </p>
             <div className="mt-6 flex flex-wrap items-center gap-3">
               <a
@@ -313,7 +313,7 @@ function Hero() {
                 LinkedIn
               </a>
               <a
-                href="/portfolio-website/Sohan_Salahuddin_Resume.pdf" download="Sohan_Salahuddin_Resume.pdf"
+                href="/portfolio-website/Resume_Sohan_Salahuddin_Mugdho.pdf" download="Resume_Sohan_Salahuddin_Mugdho.pdf"
                 className="rounded-full bg-slate-900 text-white dark:bg-white dark:text-slate-900 px-4 py-2 text-sm hover:shadow"
               >
                 Download CV
@@ -538,7 +538,7 @@ function Footer() {
         <div className="text-sm text-slate-500 flex flex-col sm:flex-row gap-2 sm:items-center sm:justify-between">
           <div>© {new Date().getFullYear()} Sohan S. Mugdho</div>
           <div className="flex gap-4">
-            <a className="hover:underline" href="/Sohan_Salahuddin_Resume.pdf" download="Sohan_Salahuddin_Resume.pdf">CV</a>
+            <a className="hover:underline" href="/Resume_Sohan_Salahuddin_Mugdho.pdf" download="Resume_Sohan_Salahuddin_Mugdho.pdf">CV</a>
             <a className="hover:underline" href="mailto:ssmugdho@iastate.edu">Email</a>
             <a className="hover:underline" href="https://www.linkedin.com/in/sohan-salahuddin-mugdho" target="_blank" rel="noreferrer">LinkedIn</a>
           </div>
