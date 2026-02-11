@@ -73,6 +73,16 @@ const PUBLICATIONS = [
   },
   {
     title:
+      "Scalable and robust multi-bit spintronic synapses for analog in-memory computing",
+    authors: "K. K. Gupte*, S. S. Mugdho* , C. Huang, C. Wang (*equal contribution)",
+    venue: "npj Unconventional Computing",
+    extra: "DOI: 10.1038/s44335-026-00055-7",
+    link: "",
+    tags: [TAGS.hw, TAGS.hwdsgn],
+    year: 2026,
+  },
+  {
+    title:
       "Scalable Spintronic Synapses for Analog In‑Memory Computing Based on Exchange‑Coupled Nanostructures",
     authors: "K. K. Gupte*, S. S. Mugdho* , C. Wang (*equal contribution)",
     venue: "IEEE ICRC 2024 (San Diego, CA) — Best Paper",
@@ -444,11 +454,11 @@ function Publications() {
                 </div>
                 <div className="text-sm text-slate-500 dark:text-slate-400 lg:text-right whitespace-nowrap">{p.year}</div>
               </div>
-              <div className="mt-4 flex flex-wrap gap-2">
+              {/* <div className="mt-4 flex flex-wrap gap-2">
                 {p.tags.map((t) => (
                   <PubBadge key={t} tag={t} />
                 ))}
-              </div>
+              </div> */}
             </div>
           </Card>
         ))}
